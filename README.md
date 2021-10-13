@@ -17,21 +17,21 @@ Implementa las funciones de raiz cuadrada y arcoseno
 
 ## Despliegue 📦
 
-#####Pagina del deploy => [mathapp](http://ec2-54-211-47-204.compute-1.amazonaws.com:42000)
+###Pagina del deploy => [mathapp](http://ec2-54-211-47-204.compute-1.amazonaws.com:42000)
 
-#####Clonado
+###Clonado
 ```
 git clone https://github.com/J-382/AREP-P2 
 ```
 
-#####Compilado y ejecucion
+###Compilado y ejecucion
 ```
 mvn clean install
 mvn compile
 java -cp "./classes:./dependency/*" edu.eci.arep.App
 ```
 
-#####EC2
+###EC2
 ```
 sudo yum update -y
 sudo yum install docker
