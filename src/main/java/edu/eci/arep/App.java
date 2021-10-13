@@ -8,7 +8,7 @@ public class App {
 
         port(getPort());
         
-        get("/cos", ((req, res) -> {
+        get("/asin", ((req, res) -> {
             res.type("application/json");
             Double input = Double.parseDouble(req.queryParams("value"));
             return MathServices.Asin(input);
