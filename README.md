@@ -17,8 +17,6 @@ Implementa las funciones de raiz cuadrada y arcoseno
 
 ## Despliegue 📦
 
-###Pagina del deploy => [mathapp](http://ec2-54-211-47-204.compute-1.amazonaws.com:42000)
-
 ###Clonado
 ```
 git clone https://github.com/J-382/AREP-P2 
